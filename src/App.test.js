@@ -4,12 +4,12 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const featureElement = getByText(/feature/i);
+  expect(featureElement).toBeInTheDocument();
 });
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const featureElement = getByText(/feature/i);
+  expect(featureElement).toBeInTheDocument();
 });
